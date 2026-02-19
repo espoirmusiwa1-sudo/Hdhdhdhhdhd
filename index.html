@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paiement Formation Python</title><style>
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f2f6fb;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+header, footer{
+  background:#004080;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-weight:bold;
+}
+
+.main{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.container{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+  width:100%;
+  max-width:450px;
+  text-align:center;
+}
+
+.logo{
+  width:110px;
+  margin-bottom:15px;
+}
+
+h2{
+  color:#004080;
+  margin-bottom:15px;
+}
+
+.payment-box{
+  background:#e6f0ff;
+  padding:15px;
+  border-radius:8px;
+  margin-bottom:20px;
+  text-align:left;
+  font-size:14px;
+}
+
+select, input{
+  width:100%;
+  padding:10px;
+  margin:8px 0 15px 0;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:14px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#004080;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#00264d;
+}
+
+.note{
+  margin-top:15px;
+  font-size:13px;
+  color:#cc0000;
+  font-weight:bold;
+}
+
+.success{
+  color:green;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.app-title{
+  font-weight:bold;
+  color:#004080;
+  margin-bottom:15px;
+  font-size:16px;
+}
+
+</style></head><body><header>PYTHON ACADEMY - Formation Professionnelle</header><div class="main">
+  <div class="container"><!-- Texte BAC1 IAGE au-dessus du logo -->
+<div style="font-weight:bold; color:#004080; margin-bottom:10px;">BAC1 IAGE</div>
+
+<!-- Remplace logo.png par ton logo -->
+<img src="logo.png" class="logo" alt="Logo">
+
+<!-- Texte entre logo et paiement -->
+<div class="app-title">APPRENDS LE PYTHON<br>PYTHON ET MOI 💝</div>
+
+<h2>Paiement 5$ (Accès à vie)</h2>
+
+<div class="payment-box">
+  <strong>Montant :</strong> 5$ (Accès à vie)<br>
+  <strong>Numéro :</strong> 0978713440<br>
+  <strong>Nom Banque :</strong> Ilunga Marcel
+</div>
+
+<!-- FORMULAIRE AVEC ENVOI AUTOMATIQUE EMAIL -->
+<form action="https://formsubmit.co/espoirmusiwa60@gmail.com" method="POST" enctype="multipart/form-data">
+
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="Nouvelle preuve de paiement - Python Academy">
+  <input type="hidden" name="_template" value="table">
+
+  <select name="Niveau" required>
+    <option value="">-- Sélectionner le niveau --</option>
+    <option>Débutant</option>
+    <option>Intermédiaire</option>
+    <option>Avancé</option>
+  </select>
+
+  <input type="text" name="Nom" placeholder="Nom complet" required>
+  <input type="text" name="WhatsApp" placeholder="Numéro WhatsApp" required>
+  <input type="email" name="Email" placeholder="Adresse Email" required>
+
+  <label>Importer la capture du paiement :</label>
+  <input type="file" name="Capture" accept="image/*" required>
+
+  <button type="submit">Envoyer les informations</button>
+
+</form>
+
+<div class="note">
+  ⚠ Après paiement, importez la capture. Le message sera envoyé automatiquement à l'administrateur.
+</div>
+
+  </div>
+</div><footer>&copy; 2026 Python Academy</footer></body>
+</html>
